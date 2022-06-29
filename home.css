@@ -130,7 +130,7 @@ section:nth-child(2n + 1) {
 #about{
     height: auto;
     width: 100%;
-    position: relative;/* This property will override the header portion so that my photo appears clearly */
+  /*  position: relative;/* This property will override the header portion so that my photo appears clearly */
     margin-bottom: 30px;
 }
 #my-image{
@@ -141,6 +141,7 @@ section:nth-child(2n + 1) {
 }
 #my-image img{
     height:100%;
+    position: relative;
     width: 100%;
     border-radius: 30%;
     box-shadow: 0.2px 0.2px 6px 4px rgb(174, 23, 200);
@@ -205,4 +206,27 @@ section:nth-child(2n + 1) {
     background-color: rgb(255, 246, 254);
     border-radius: 10px;
     border-style:groove;
+  }
+
+  .edu_level{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(31, 24, 24, 0.56);   
+    margin-left: 40%;
+
+  }
+  .sub_edu{
+    margin-left: 40%;
+  }
+  .underline{
+    background-color: #002aff;
+    height: 2px;
+    width:200px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+  }
+  .coros{
+    height: 50%;
+    width: 50%;
+    color: black;
   }
